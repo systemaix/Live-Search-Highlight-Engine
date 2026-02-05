@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchLight | Live Highlighting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="search-header">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Type to find text (e.g., 'web', 'design')...">
+            <span id="match-count">0 matches</span>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <article id="content">
+            <h1>The Evolution of Web Design</h1>
+            <p>
+                In the early days of the <strong>World Wide Web</strong>, design was dictated by the limitations of HTML. 
+                Web pages were primarily text-based, with blue hyperlinks and gray backgrounds. There was no CSS, 
+                no layout engines, and certainly no mobile responsiveness.
+            </p>
+
+            <h2>The Era of Tables</h2>
+            <p>
+                As the web grew, designers started using <table> structures to create layouts. This allowed for 
+                sidebars, headers, and grid-like designs. However, this code was messy and hard to maintain.
+                It was a dark time for semantic markup, but it paved the way for future innovations.
+            </p>
+
+            <h2>The Rise of CSS</h2>
+            <p>
+                Cascading Style Sheets (CSS) changed everything. It separated content from design. Suddenly, 
+                colors, fonts, and layouts could be controlled from a single file. This is when the web 
+                truly became beautiful. We saw the rise of the "Box Model" and float-based layouts.
+            </p>
+
+            <h2>Modern Responsive Design</h2>
+            <p>
+                Today, we live in a mobile-first world. Flexbox and CSS Grid have revolutionized how we build 
+                interfaces. Web design is no longer just about static pages; it's about dynamic, interactive 
+                experiences that adapt to any screen size, from a smartwatch to a 4K monitor.
+            </p>
+            
+            <blockquote>
+                "Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs
+            </blockquote>
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
